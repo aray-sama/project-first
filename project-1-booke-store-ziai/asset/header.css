@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: kjlk;
+
+  color: #1a3027;
+  direction: rtl !important;
+  box-sizing: border-box! important;
+}
+
+header {
+  padding: 5px;
+  width: 100%;
+  background-color: #dde6ed;
+  text-align: center;
+  font-size: 25px;
+  height: 650px;
+ }
+
+header > div.menu {
+  width: inherit;
+}
+
+header > div.menu > nav {
+  width: inherit;
+  height: inherit;
+}
+
+header > div.menu > nav > ul {
+  width: inherit;
+  height: inherit;
+
+  position: relative;
+  list-style: none;
+
+ 
+}
+
+header > div.menu > nav > ul > div.right {
+  position: absolute;
+    width: 30%;
+  right: 0%;
+  font-size: 30px;
+
+}
+
+header > div.menu > nav > ul > div.right > li {
+  width: inherit;
+  display: inline-block;
+  padding: 5px;
+  margin: 15px 10px;
+  transition: 500ms;
+  vertical-align: top;
+}
+
+header > div.menu > nav > ul > div.right > li:hover {
+  width: inherit;
+  display: inline-block;
+  padding: 8px;
+  text-shadow: 2px 2px 8px #2b2b2ba2;
+}
+
+header > div.menu > nav > ul > div.right > li > a {
+  width: inherit;
+  text-decoration: none;
+}
+
+header > div.menu > nav > ul > div.right > li > a > i {
+  width: inherit;
+}
+header > div.menu > nav > ul > div.center {
+  font-size: 40px;
+  position: absolute;
+  right: 40%;
+  display: inline-block;
+}
+header > div.menu > nav > ul > div.center>h1>a{
+  text-decoration: none;
+}
+
+header > div.menu > nav > ul > div.left {
+  width: 30%;
+  position: absolute;
+  left: 0px;
+  font-size: 35px;
+}
+header > div.menu > nav > ul > div.left > li {
+  width: inherit;
+  display: inline-block;
+  padding: 20px;
+  transition: 500ms;
+}
+
+header > div.menu > nav > ul > div.left > li:hover {
+  width: inherit;
+  display: inline-block;
+  padding: 10px;
+  text-shadow: 2px 2px 8px #2b2b2ba2;
+}
+
+header > div.menu > nav > ul > div.left > li > a {
+  width: inherit;
+  text-decoration: none;
+}
+
+header > div.menu > nav > ul > div.left > li > a > i {
+  width: inherit;
+}
+header > div.header-content {
+  width: inherit;
+  padding: 5px;
+  position: relative;
+}
+header > div.header-content > div.header-content-img {
+}
+
+header > div.header-content > div.header-content-img-bg {
+  width: 400px;
+  height: 400px;
+  background-color: #9db2bf;
+  border-radius: 50%;
+  position: absolute;
+  left: 15%;
+  top: 80px;
+}
+header > div.header-content > div.header-content-img > img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  border: #1a3027 8px solid;
+  border-radius: 70%;
+  position: absolute;
+  left: 10%;
+  top: 120px;
+}
+header > div.header-content > div.header-content-search {
+  position: absolute;
+  position: absolute;
+  right: 10px;
+  top: 210px;
+  text-align: center;
+}
+
+header
+  > div.header-content
+  > div.header-content-search
+  > div.header-content-search-text
+  > h2 {
+  padding-bottom: 10px;
+}
+header
+  > div.header-content
+  > div.header-content-search
+  > div.header-content-search-text {
+  padding-bottom: 20px;
+}
+
+.button-search {
+  background-color: #526d82;
+  border: 1px;
+  color: rgb(210, 224, 235);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+header > div.header-content > div.header-content-search > input {
+  width: 400px;
+font-size: 20px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px #526d82 solid;
+  text-align: center;
+  margin-top:20px;
+}
