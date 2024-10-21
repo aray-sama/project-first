@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box! important;
+}
+
+main {
+
+  height: fit-content;
+  font-family: s584562;
+  
+}
+
+a{text-decoration: none !important;
+  transition: 500ms;}
+a:hover{
+  text-shadow:2px 2px 2px #2b2b2b86;
+}
+.swiper {
+  margin: 20px auto;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 20px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main > div.title-book {
+  direction: rtl !important;
+  margin: 30px auto;
+  padding: 5px;
+}
+
+main > div.title-book > a {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 90%;
+  text-decoration: none;
+  vertical-align: middle;
+  transition: 500ms;
+}
+
+main > div.title-book > a:hover {
+  text-shadow: 2px 2px 4px #2b2b2b;
+}
+main > div.title-book > a > span {
+  font-size: 23px;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+main > div.title-book > a > img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+/* -------------------card----------------------------- */
+
+div.card {
+  width: 250px;
+  height: 500px;
+  margin: 10px auto;
+  border-radius: 17px;
+  border: 2px solid rgba(0, 0, 0, 0.836) ;
+  box-shadow: 7px 7px 5px #2b2b2bad;
+
+  padding:5px ;
+  box-sizing: border-box;
+}
+div.card > div.img {
+  width: 220px;
+  height: 340px;
+  border-radius: 17px;
+  margin: 0px auto;
+  margin-top: 15px;
+}
+div.card > div.img > img {
+  width: 220px;
+  height: 340px;
+  border-radius: 17px;
+  margin: 0px auto;
+  box-shadow: 2px 2px 2px #2b2b2b;
+  object-fit: fill;
+}
+
+div.card > div.information {
+  width: 220px;
+  height: 145px;
+  margin: 0px auto;
+  margin-top: 5px;
+}
+
+div.card > div.information > h2 {
+  width: 220px;
+  height: min-content;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 20px;
+}
+div.card > div.information > div.price {
+  width: 220px;
+  height: 70px;
+  position: relative;
+}
+div.card > div.information > div.price > div.left {
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  left:0% ;
+
+  bottom : 40%;
+}
+
+div.card > div.information > div.price > div.left > a {
+  object-fit: fill;
+  vertical-align: middle;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+div.card > div.information > div.price > div.left > a > i {
+  object-fit: fill;
+  vertical-align: middle;
+  font-size: 35px;
+}
+
+div.card > div.information > div.price > div.right {
+  font-size: 20px;
+  width: 50%;
+  height: inherit;
+
+  position: absolute;
+  right: 0%;
+
+  bottom: 20%;
+  font-family: numi;
+}
+div.card > div.information > div.price > div.right > div.top {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  font-size: 12px;
+
+  padding-top: 10px;
+}
+
+div.card > div.information > div.price > div.right > div.top > div.right {
+  width: 30%;
+  height: 100%;
+
+  position: absolute;
+  right: 0%;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #418597;
+  color: rgb(255, 255, 255);
+}
+
+div.card > div.information > div.price > div.right > div.top > div.left {
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  left: 10%;
+  padding: 3px;
+  text-align: end;
+  text-decoration: line-through;
+  color: #2b2b2b;
+  font-size: 15px;
+}
+
+div.card > div.information > div.price > div.right > div.bottom {
+  width: 100%;
+  height: 50%;
+  padding: 1px;
+  text-align: center;
+}
+/* -------------------------------------------------------------- */
+
+div.nashr {
+  width: 200px;
+  height: 280px;
+  color: #2b2b2b;
+  font-size: 15px;
+  padding: 3px;
+  text-align: end;
+  box-shadow: 2px 2px 2px #2b2b2bad;
+  border: 1px solid rgba(0, 0, 0, 0.432);
+  margin: 20px auto;
+  text-align: center;
+}
+div.nashr > div.img {
+  margin: 5px auto;
+  margin-top: 10px;
+  width: 180px;
+  height: 200px;
+  /* border: 1px solid rgba(0, 0, 0, 0.432); */
+
+  object-fit: fill;
+}
+
+div.nashr > div.img > img {
+  width: 180px;
+  height: 200px;
+
+  object-fit: fill;
+}
+
+/* -------------------------------------------------------------- */
+div.middle-1 {
+  padding: 10px;
+  width: 99%;
+  height: 350px;
+  background-color: #418597;
+  border-radius: 30px;
+  margin: 0px auto;
+  position: relative;
+}
+.button-middle {
+  background-color: #f6fcfd;
+  border: 2px;
+  color: #418597;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 250px;
+  height: 85px;
+  border-radius: 20px;
+  font-size: 45px;
+  font-weight: bolder;
+  border: 5px solid #418597;
+}
+
+div.middle-1 > div.picture {
+  width: 30%;
+  height: inherit;
+  position: absolute;
+  left:10px;
+}
+div.middle-1 > div.picture > img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+div.middle-1 > div.text {
+  
+  width: 70%;
+  height: inherit;
+  position: absolute;
+  right: 0%;
+  top: 25%;
+  height: 200px;
+  text-align: center;
+ 
+}
+
+div.middle-1 > div.text > h2 {
+  font-size: 50px;
+ 
+  color: #e6f0f3;
+}
+
+/* ----------------------------------------- */
+div.mid {
+  width: 100%;
+  height: 250px;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+}
+
+div.mid > div.middle-2 {
+  width: 650px;
+  height: 260px;
+  background-color: #dde6ed;
+  border-radius: 30px;
+  /* margin: 0px auto; */
+  position: absolute;
+  right: 10px;
+}
+
+div.mid > div.middle-3 {
+  width: 650px;
+  height: 260px;
+  background-color: #dde6ed;
+  border-radius: 30px;
+  /* margin: 0px auto; */
+  position: absolute;
+  left: 10px;
+}
+div.mid > div.middle-2 > div.picture {
+  width: 40%;
+  height: inherit;
+  border-radius: 50%;
+  text-align: center;
+  padding: 20px;
+  margin-right: 360px;
+  position: relative;
+}
+div.mid > div.middle-2 > div.picture > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #2b2b2b;
+  object-fit: contain;
+
+}
+
+div.mid > div.middle-2 > div.text {
+  position: absolute;
+  width: 80%;
+  height: inherit;
+  text-align: center;
+  padding: 20px;
+  right: 0%;
+  top: 0%;
+
+  padding: 100px;
+}
+div.mid > div.middle-2 > div.text > h2 {
+  font-size: 30px;
+}
+div.mid > div.middle-2 > div.text > h2>a{text-decoration: none;}
+div.mid > div.middle-3 > div.picture {
+  width: 40%;
+  height: inherit;
+  border-radius: 50%;
+  text-align: center;
+  padding: 20px;
+  margin-right: 360px;
+  position: relative;
+}
+div.mid > div.middle-3 > div.picture > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #2b2b2b;
+  object-fit: contain;
+}
+
+div.mid > div.middle-3 > div.text {
+  position: absolute;
+  width: 80%;
+  height: inherit;
+  text-align: center;
+  padding: 20px;
+  right: 0%;
+  top: 0%;
+
+  padding: 100px;
+}
+div.mid > div.middle-3 > div.text > h2 {
+  font-size: 30px;
+}
+div.mid > div.middle-3 > div.text > h2>a{text-decoration: none;}
